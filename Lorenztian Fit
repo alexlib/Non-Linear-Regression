@@ -63,13 +63,6 @@ def Lorentzian_fit(x_lst, y_lst, x_0_guess, gamma_guess, I_guess,  n=50):
 
   return x_fit, y_fit, f, A, B, I, R_squared
 
-### Data Read:
-
-print ("Enter Path (without Quotation marks):")
-path=input()
-df=pd.read_excel(path)
-df=df.to_numpy()
-
 ### Execution
 
 x=np.array([2.41, 2.7, 2.9, 3.1, 3.3, 3.41, 3.5, 3.59, 3.65, 3.9, 4.05])
