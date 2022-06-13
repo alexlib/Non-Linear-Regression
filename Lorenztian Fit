@@ -63,7 +63,7 @@ def Lorentzian_fit(x_lst, y_lst, x_0_guess, gamma_guess, I_guess,  n=50):
 
   return x_fit, y_fit, f, A, B, I, R_squared
 
-### Execution
+### Execution Example
 
 x=np.array([2.41, 2.7, 2.9, 3.1, 3.3, 3.41, 3.5, 3.59, 3.65, 3.9, 4.05])
 y=np.array([33.5, 44.83, 65.27, 104.7, 203.2, 320.2, 746.3, 1325, 832.5, 261.1, 179.8])
