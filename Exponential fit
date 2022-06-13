@@ -68,7 +68,7 @@ path=input()
 df=pd.read_excel(path)
 df=df.to_numpy()
 
-### Execution
+### Execution Example
 
 x=np.array([1, 2, 3, 4, 5])
 y=np.array([6, 5, 7, 10,9])
